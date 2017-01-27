@@ -1,0 +1,23 @@
+body {
+	margin-top: 20px;
+}
+.article {
+	font-size: 1.1em;
+	text-indent: 15px;
+	margin-bottom: 30px;
+}
+footer {
+	font-size: 1.1em;
+	background-color: grey;
+	height: 50px;
+	color: white;
+	padding-top: 10px;
+	padding-right: 5px;
+}
+.guitar-row {
+	margin-bottom: 10px;
+}
+.guitspec { 
+	list-style-type: none;
+	font-size: 1.2em; 
+}

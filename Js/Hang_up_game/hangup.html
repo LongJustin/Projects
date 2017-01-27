@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	table {	margin: 20px;	}
+	td {
+		height: 20px;
+		width: 20px;
+	}
+	form {	margin-left: 30px;	}
+	input { width : 30px; }
+	</style>
+</head>
+<body>
+<table border="1">
+	<tr id="gameboard">
+	</tr>
+</table>
+<br>
+<form>
+Enter your letter:<br>
+<input id="check" type="text" name="letter"  onkeyup="validLetter(this)" autofocus>
+<div id="counter"></div>
+</form>
+<script src="hangup.js" type="text/javascript"></script>
+</body>
+</html>
